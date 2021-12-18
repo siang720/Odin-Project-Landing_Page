@@ -35,3 +35,71 @@ a {
 }
 
 /* header section end*/
+
+/* main section start*/
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 96px;
+}
+
+.main-info {
+  flex-basis: 40%;
+}
+
+.main-info .title {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.main-info p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.main-info a {
+  color: #E5E7EB;
+  background-color: #3882F6;
+  padding: 6px 16px;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* main section end*/
+
+/* random-info section start*/
+.random-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 96px;
+  background-color: #fff;
+}
+
+.random-info .title {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0 0 32px 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.card-container .card img {
+  border: none;
+  border-radius: 5px;
+}
+
+.card-container .card p {
+  width: 100px;
+  text-align: center;
+  color: #1F2937;
+}
+
+/* random-info section end*/
