@@ -176,3 +176,12 @@ a {
 }
 
 /* sign-up section end*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+  padding: 16px;
+  font-family: "Rajdhani";
+}
