@@ -101,18 +101,25 @@ a {
 
 .card-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 48px;
+}
+
+.card-container .card {
+  flex-basis: 20%;
+  margin-right: 32px;
 }
 
 .card-container .card img {
   border: none;
   border-radius: 5px;
+  width: 100%;
+  height: auto;
 }
 
 .card-container .card p {
-  width: 100px;
-  text-align: center;
+  width: 100%;
+  text-align: left;
   color: #1F2937;
 }
 
@@ -143,6 +150,7 @@ a {
   display: flex;
   justify-content: end;
   margin: 4px 0 32px 0;
+  font-size: 22px;
   font-family: "Rajdhani";
 }
 /* quote section end*/
@@ -169,12 +177,12 @@ a {
 }
 
 .sign-up-card a {
-  border: 2px solid #E5E7EB;
+  border: 3px solid #E5E7EB;
   border-radius: 5px;
   background-color: #3882F6;
   padding: 8px 16px;
   color: #E5E7EB;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .description .d1 {
