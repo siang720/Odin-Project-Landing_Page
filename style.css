@@ -39,12 +39,15 @@ a {
 /* main section start*/
 .main {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   padding: 32px 96px;
 }
 
 .main-info {
   flex-basis: 40%;
+  padding-right: 16px;
 }
 
 .main-info .title {
@@ -54,16 +57,27 @@ a {
 }
 
 .main-info p {
-  font-size: 18px;
+  font-size: 26px;
   color: #E5E7EB;
+  margin-bottom: 48px;
 }
 
 .main-info a {
   color: #E5E7EB;
   background-color: #3882F6;
-  padding: 6px 16px;
+  padding: 8px 28px;
   border: 0;
   border-radius: 5px;
+  font-size: 28px;
+}
+
+.main-picture {
+  flex-basis: 50%;
+}
+
+.main-picture img {
+  width: 100%;
+  height: auto;
 }
 
 /* main section end*/
