@@ -103,3 +103,32 @@ a {
 }
 
 /* random-info section end*/
+
+/* quote section start*/
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 96px;
+  background-color: #E5E7EB;
+}
+
+.quote p {
+  max-width: 700px;
+}
+
+.quote .text {
+  margin: 32px 0 4px 0;
+  font-size: 36px;
+  color: #1F2937;
+  font-family: "Rajdhani";
+}
+
+.author {
+  width: 100vw;
+  display: flex;
+  justify-content: end;
+  margin: 4px 0 32px 0;
+  font-family: "Rajdhani";
+}
+/* quote section end*/
