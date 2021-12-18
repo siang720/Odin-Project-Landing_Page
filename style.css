@@ -132,3 +132,47 @@ a {
   font-family: "Rajdhani";
 }
 /* quote section end*/
+
+/* sign-up section start*/
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 96px;
+  background-color: #fff;
+}
+
+.sign-up-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  margin: 48px 0;
+  padding: 16px 96px;
+  background-color: #3882F6;
+  border: 0;
+  border-radius: 5px;
+}
+
+.sign-up-card a {
+  border: 2px solid #E5E7EB;
+  border-radius: 5px;
+  background-color: #3882F6;
+  padding: 8px 16px;
+  color: #E5E7EB;
+  font-size: 32px;
+}
+
+.description .d1 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+.description .d2 {
+  margin-top: 0;
+  color: #E5E7EB;
+}
+
+/* sign-up section end*/
